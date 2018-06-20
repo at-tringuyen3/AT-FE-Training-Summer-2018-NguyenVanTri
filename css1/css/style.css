@@ -1,0 +1,155 @@
+body {
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+  position: relative;
+  margin: 25px auto;
+  height: 40em;
+  max-width: 600px;
+  border: 1px solid #000000;
+  background-color: #42f4eb;
+  box-sizing: border-box;
+  }
+[class*="div"] {
+  height: 20%;
+  width: 20%;
+  border: 1px solid red;
+  position: absolute;
+  }
+.div-A {
+  background-color: #669900;
+  border-radius: 25px;
+  text-align: left;
+  }
+.div-A p {
+  display: flex;
+  color: #ff3300;
+  font-size: 1.9em;
+  font-style: italic;
+  background-color: white;
+  }
+.div-A p::before {
+  color: #ff3300;
+  content: "1.";
+  }
+.div-A p::after {
+  color: #ff0000;
+  content: "...";
+  }
+.div-A a:link {
+  color: #0066ff;
+  text-decoration: none;
+  padding-left: 1.4em;
+  font-size: 1.2em;
+  }
+.div-A a:visited {
+  color: #ffffff;
+  }
+.div-A a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+  font-size: 1.4em;
+  }
+.div-A a:active {
+  color: #999966;
+  text-decoration:none;
+  }
+.div-B {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #ffff00;
+  border-radius: 50%;
+  text-align: center;
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  }
+.div-C {
+  right:0;
+  background-color: #0066ff;
+  border-radius: 25%;
+  text-align: right;
+  color: #990099;
+  text-transform: uppercase;
+  }
+.div-D {
+  border-left: 3.2em solid transparent;
+  border-right: 3.2em solid transparent;
+  border-bottom: 100px solid red;
+  width: 0;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #000000;
+  text-align: ;
+  color: #006600;
+  font-size: 1.2em;
+  text-transform: lowercase;
+  }
+.div-E {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #455250ab;
+  text-align: center;
+  width: 33%;
+  height: 18%;
+  border-radius: 9em / 4.5em;
+  text-transform: capitalize;
+  text-indent: 20px;
+  }
+ .div-F p{
+  line-height: 5px;
+  }
+.div-F {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #ff6600;
+  text-align: left;
+  }
+.div-F p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  }
+.div-G {
+  bottom: 0;
+  background-color: #333300;
+  text-align: left;
+  }
+.div-G p {
+  padding-top: 2em;
+  }
+.div-H {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #ff66ff;
+  text-align: center;
+  border-radius: 50%;
+  }
+.div-H p {
+  display: flex;
+  margin-left: 30px;
+  padding-top: 20px;
+  text-decoration: overline;
+  }
+.div-I {
+  bottom: 0;
+  right: 0;
+  background-color: #380202ab;
+  text-align: center;
+  }
+.div-I p {
+  display: flex;
+  margin-left: 20px;
+  }
