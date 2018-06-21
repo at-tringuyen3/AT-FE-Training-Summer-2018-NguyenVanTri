@@ -1,0 +1,96 @@
+body {  
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  height: 40rem;
+  max-width: 650px;
+  border-top: 1px solid #2D5757;
+  background-color: #29FFFF;
+  box-sizing: content-box;
+}
+[class*="div"] {
+  height: 18%;
+  width: 18%;
+  position: absolute;
+}
+.div-A {
+  background-color: #FD0015;
+  border: 1px solid #5A9595;
+  text-align: center;
+  border-radius: 50%;
+}
+.div-A p {
+  line-height: 25px;
+}
+.div-B {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 15%;
+  border: 1px solid #FD0015;
+  background-color: #ffff00;
+  text-align: right;
+}
+.div-C {
+  right:0;
+  background-color: #4800FF;
+  text-align: left;
+}
+.div-D {
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border-right: 10px solid #5500F8;
+  background-color: #008D23;
+  text-align: right;
+}
+.div-E {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #FBA72F;
+  text-align: center;
+}
+.div-F {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #8D007F;
+  text-align: left
+}
+.div-G {
+  bottom: 0;
+  text-align: right;
+  color: #0A8D49;
+ }
+.div-H {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 1em;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+.div-I {
+  bottom: 0;
+  right: 0;
+  background-color: #787878;
+  color: #FD0015;
+  text-align: center;
+}
+.div-I p {
+  position: absolute;
+  top: -1.6em;
+  left: 1.2em;
+}
+p {
+  text-transform: uppercase;
+}
