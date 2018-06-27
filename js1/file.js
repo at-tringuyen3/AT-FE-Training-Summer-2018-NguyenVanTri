@@ -53,4 +53,3 @@ function bai4(str) {
 }
 var str = prompt("Type a string include numbers and one * ");
 document.write("Result: " + bai4(str));
-bai3(str);
