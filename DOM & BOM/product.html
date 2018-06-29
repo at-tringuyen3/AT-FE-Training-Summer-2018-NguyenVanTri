@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="cart.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <form class="form-inline my-2 my-lg-0">
+          <a id="js-btn-cart" href="#">
+            <span id="cart-quantity">0</span>
+            <img class="cart-icon" src="images/cart.jpeg" alt="">
+          </a>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Product-1</h2>
+          <img src="#" alt="">
+          <p>Product 1</p>
+          <p >4$</p>
+          <p><a class="btn btn-secondary js-btn-buy" role="button" data-name="product-1" data-quantity = "1" data-price="4">Add Cart</a></p>
+        </div>
+        <div class="col-md-3">
+          <h2>Product-2</h2>
+          <img src="#" alt="">
+          <p>Product 2</p>
+          <p>4$</p>
+          <p><a class="btn btn-secondary js-btn-buy" role="button" data-name="product-2" data-quantity = "1" data-price="4">Add Cart</a></p>
+        </div>
+        <div class="col-md-3">
+          <h2>Product-3</h2>
+          <img src="#" alt="">
+          <p>Product 3</p>
+          <p>4$</p>
+          <p><a class="btn btn-secondary js-btn-buy" role="button" data-name="product-3" data-quantity = "1" data-price="4">Add Cart</a></p>
+        </div>
+        <div class="col-md-3">
+          <h2>Product-4</h2>
+          <img src="#" alt="">
+          <p>Product 4</p>
+          <p>4$</p>
+          <p><a class="btn btn-secondary js-btn-buy" role="button" data-name="product-4" data-quantity = "1" data-price="4">Add Cart</a></p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <table id="js-cart-box" class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+        <span id="js-total"></span>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; Design by me</p>
+      </footer>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
