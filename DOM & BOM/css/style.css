@@ -1,0 +1,27 @@
+.cart-icon{
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+.col-md-4 img {
+  width: 70%;
+}
+#js-total-active{
+  display: block !important;
+  line-height: 1.5em;
+  background: #6c6565;
+  text-align: center;
+  color: white;
+}
+#js-cart-box, #js-total{
+  display: none;
+}
+#js-cart-box-active, #js-total-active{
+  display: table;
+}
+#cart-quantity{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 32px;
+}
